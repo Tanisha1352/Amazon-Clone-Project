@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color:#e3e9e6 ;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 110px
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+} 
+
+
+.first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.second {
+    color: #ffffff;
+    font-size: 0.95rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.nav-address {
+    padding: 0.5rem;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    background-color:rgb(255, 187, 0);
+    justify-content: space-evenly;
+    width: 1100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+    background-color: orange;
+}
+
+.nav-sign {
+    padding: 0.5rem;
+}
+
+.nav-return {
+    padding: 0.5rem;
+}
+
+.nav-cart {
+    padding: 0.5rem;
+}
+
+.search-select {
+    background-color: #eee4e2;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px ;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+.span1 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.nav-sec {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.sign-select {
+    background-color: #0f1111;
+    color: rgb(206, 192, 192);
+    border: none;    
+}
+
+.sign-sec {
+    display: flex;
+}
+
+.nav-cart i {
+    font-size: 27px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding-top: 8px 9px;
+}
+
+.panel p {
+    padding: 0.6rem;
+}
+
+.panel-all {
+    font-weight: 700;
+    padding: 0.6rem;
+}
+
+.panel-all i {
+    font-size: 17px;
+}
+
+.panel p:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+} 
+
+.hero-section {
+    background-image: url("hero4.jpg");
+    background-size: cover;
+    height: 510px;
+    margin-left: 170px;
+    margin-right: 170px;
+}    
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #22787e;
+    margin-left: 170px;
+    margin-right: 170px;
+}    
+
+.box {
+    height: 390px;
+    width: 360px;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+}
+
+.box1, .box2, .box3, .box4 {
+    margin-top: -200px;
+}
+
+.foot-panel1 {
+    height: 20px;
+    background-color: #37475a;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.foot-panel1:hover {
+    background-color: #485f75;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    color: white;
+    background-color: #222f3d;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 250px;
+    padding-right: 280px;
+    
+}
+
+ul {
+    margin-top: 40px;
+    
+}
+
+ul a {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
+ul p {
+    font-weight: 700;
+    
+}
+
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 1.3px solid #3a4553;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.foot-panel4 {
+    background-color: #131A22;
+    color: #dddddd;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+.pages {
+    text-align: center;
+}
+
+.pages a {
+   margin-right: 15px;
+   
+}
+
+.pages a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.product {
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    background-size: cover;
+}
+
+.product :hover{
+    cursor: pointer;
+}
+
+.shop-section2 {
+    width: 1480px;
+    height: 290px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 20px 10px 20px;
+    margin-left: 191px;
+    margin-right: 180px;
+}
+
+.span2 {
+    padding-left: 20px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111
+}
+.shop-section2 div {
+    align-items: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: space-evenly;
+}
+
+.head2 span, a {
+    display: inline-block;
+}
+
+.head2 a {
+    color: #007185;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.head2 a:hover{
+    color: darkred;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    cursor: pointer;
+}
+
+.shape {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 152px;
+}
+
+.rowA {
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.shop-section h2 {
+    padding-left: 20px;
+    padding-right: 17px;
+    font-size: 22px;
+}
+
+.box2-pics {
+    display: flex;
+    flex-direction: column;
+}
+
+.see-all-offers {
+    color: #007185;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.see-all-offers:hover {
+    color: darkred;
+    text-decoration-color: darkred;
+    cursor: pointer;
+}
+
+.box2-pics a {
+    font-size: 13px;
+}
+
+
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row2 {
+    margin-top: 25px;
+}
+
+.item-wrapper:hover {
+    cursor:pointer;
+}
+
+.item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 152px;
+}
+
+.rowB {
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.box4-pics a {
+    font-size: 13px;
+}
+
+.box1-pic {
+    height: 295px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+
+
+.box3-pic {
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.box3 div {
+    margin-top: 12px;
+}
+
+.box3 a {
+    margin-top: 28px;
+}
+
+.box div:hover{
+    cursor: pointer;
+}
+
+.shop-section3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.sectionmargin {
+    margin-top: 20px;
+}
+.shop-section3 h2 {
+    padding-left: 20px;
+    padding-right: 17px;
+    font-size: 22px;
+}
+
+
+.item9, .item10, .item11, .item12 {
+    height: 100px;
+}
+
+.box5-pics a {
+    font-size: 13px;
+}
+
+.item13, .item14, .item15, .item16 {
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+}
+
+.box7row {
+    height: 175px;
+}
+
+.box8-pics a {
+     font-size: 13px;
+}
+
+.productB {
+    height: 210px;
+    width: 210px;
+    background-color: white;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container2 {
+    margin-top: 10px;
+}
+
+.productc {
+    width: 137px;
+    height: 200px;
+    background-color: white;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shop-section4 {
+    width: 1480px;
+    height: 260px;
+    display: block;
+    justify-content: center;
+    alin-items: center;
+    justify-content: space-evenly;
+    padding: 25px 20px 10px 20px;
+    margin-left: 191px;
+    margin-right: 180px;
+}
+
+.shop-section4 div {
+    align-items: center;
+}
+
+.box9 div {
+    height: 285px;
+}
+
+.box10-pics a {
+    font-size: 13px;
+}
+
+.item21, .item22, .item23, .item24 {
+    height: 115px;
+    width: 150px;
+}
+
+.box12-pics a {
+    font-size: 13px;
+}
+
+.product27 {
+    height: 190px;
+    width: 250px;
+}
+
+.product24 {
+    margin-top: 20px;
+    height: 190px;
+    width: 250px;
+}
+
+.shop-section5 {
+    width: 1480px;
+    height: 270px;
+    display: block;
+    justify-content: center;
+    alin-items: center;
+    justify-content: space-evenly;
+    padding: 25px 20px 10px 20px;
+    margin-left: 191px;
+    margin-right: 180px;
+}
+
+.wide {
+    height: 200px;
+    width: 150px;
+}
+
+.long {
+    height: 200px;
+    width: 100px;
+}
+
+.beauty {
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.product32, .product36 {
+    margin-left: 20px;
+}
+
+.product35 {
+    margin-left: -30px;
+}
+
+.box15 div {
+    height: 285px;
+}
+
+.box16-pics a {
+    font-size: 13px;
+}
+
+.box13-pics a {
+    font-size: 13px;
+}
+
+.item38 {
+    height: 110px;
+}
+
+.box14-pics a {
+    font-size: 13px;
+}
+
+.productD {
+    height: 210px;
+    width: 240px;
+    background-color: white;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.product43 {
+    margin-right: -30px;
+}
